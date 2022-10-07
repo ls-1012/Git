@@ -58,7 +58,7 @@ def addContacts(driver, name=None, email=None, tel=None, country=None, province=
 
 
 if __name__ == "__main__":
-    driver = login("573369709", "myself1314")
+    driver = login("xxxxx", "xxxxxxx")
     print(addContacts(driver, "芦女士", "18518183300@qq.com", "18518183300", "中国", "北京", "昌平", "龙泽苑街道", "2010-10-10",
                       "55789909"))
     print(addContacts(driver, "uuuu"))
